@@ -1,0 +1,22 @@
+dateModified: 1696408025
+email:
+  fromEmail: senche.dev@gmail.com
+  fromName: Bites.
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    97b39696-39d5-4c02-a9d8-7c992bca8c70: Common # Common
+    5957fd25-68f5-48f7-9420-f145a9452018: Bites. # Bites.
+    c87257bb-1f30-4e68-9e42-a93172794cf3: Bites. # Bites.
+system:
+  edition: solo
+  live: true
+  name: Bites.
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
