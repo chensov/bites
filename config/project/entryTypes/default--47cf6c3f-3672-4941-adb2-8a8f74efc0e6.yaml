@@ -1,0 +1,70 @@
+fieldLayouts:
+  c5e1e185-28a5-45e3-86c7-1b29b903afff:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 8a081871-6898-48df-a999-1524cf8c437e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3c7f84ab-5d81-4834-b886-43ac1cbc1f18 # Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 72247dcd-5263-4e84-9d3e-a7fb870cdf85
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 91a76f4b-a03d-424b-b9c4-2c00b1095582 # Card One Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99d7a3c3-5529-4143-946a-63a54ce6bee5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: df3cdd90-62b6-415b-86b6-c6933ba28501
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 34bf9915-dd68-46ea-84f7-77264461b24a # cardOne
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,15 +1,31 @@
-dateModified: 1696408025
+dateModified: 1696437130
 email:
   fromEmail: senche.dev@gmail.com
   fromName: Bites.
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  cardimages:
+    hasUrls: true
+    name: cardImages
+    settings:
+      path: '@webroot/uploads '
+    type: craft\fs\Local
+    url: '@web/uploads'
 meta:
   __names__:
+    3c7f84ab-5d81-4834-b886-43ac1cbc1f18: 'Card Title' # Card Title
+    34bf9915-dd68-46ea-84f7-77264461b24a: cardOne # cardOne
+    47cf6c3f-3672-4941-adb2-8a8f74efc0e6: Default # Default
+    67a11a82-0fd8-4bab-a6ba-881d1c2b9aa0: home # home
+    73e8339c-fedb-4096-b3da-0c80cc12edde: 'Main Cards' # Main Cards
+    86cb342e-6809-4ceb-98fc-7a1017678e7c: 'Card Images' # Card Images
+    91a76f4b-a03d-424b-b9c4-2c00b1095582: 'Card One Image' # Card One Image
     97b39696-39d5-4c02-a9d8-7c992bca8c70: Common # Common
     5957fd25-68f5-48f7-9420-f145a9452018: Bites. # Bites.
     c87257bb-1f30-4e68-9e42-a93172794cf3: Bites. # Bites.
+    de58d882-4f08-46e5-b351-b963ad47133f: home # home
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Bites.
   schemaVersion: 4.5.3.0

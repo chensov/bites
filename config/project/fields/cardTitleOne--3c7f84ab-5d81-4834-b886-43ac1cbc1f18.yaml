@@ -1,0 +1,19 @@
+columnSuffix: bemmbbzy
+contentColumnType: string(120)
+fieldGroup: 73e8339c-fedb-4096-b3da-0c80cc12edde # Main Cards
+handle: cardTitleOne
+instructions: null
+name: 'Card Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 30
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

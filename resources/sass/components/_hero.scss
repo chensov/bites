@@ -1,0 +1,123 @@
+.hero--wrapper {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-card {
+  height: 500px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #fef9f9 50%);
+  width: 90vw;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card-left {
+  display: grid;
+  grid-template-rows: 30% 1fr 1fr;
+  padding: 30px;
+}
+
+.card-right {
+  height: 100%;
+  background-image: url("/assets/images/hero_card_bg.jpg"); // Photo by Clark Douglas on Unsplash
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 2px 20px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+.new-recipe {
+  background-color: #fefefe;
+  width: 300px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap-dish-time {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+
+.new-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+}
+
+.new-dish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+}
+
+.card-lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-lower--profile--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-lower-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+
+  .card-lower-profile-name {
+    font-weight: 600;
+  }
+}
+
+.recipe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #1d1d1d;
+  font-size: 0.9rem;
+  padding: 10px 35px;
+  border-radius: 50px;
+}
+
+.card-lower--profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url("/assets/images/profile_pic.png"); // Photo by Clark Douglas on Unsplash
+  background-size: cover;
+  background-position: center;
+}
