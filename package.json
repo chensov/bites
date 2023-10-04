@@ -1,0 +1,15 @@
+{
+  "name": "craftbites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sen C.",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.68.0"
+  }
+}
