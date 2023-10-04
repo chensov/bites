@@ -26,8 +26,8 @@ return GeneralConfig::create()
     ->disallowRobots(App::env('DISALLOW_ROBOTS') ?? false)
     // Prevent user enumeration attacks
     ->preventUserEnumeration()
-    // Set the @webroot alias so the clear-caches command knows where to find CP resources
+    // Set the @webroot and @web aliases
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/web',
-    ])
-;
+        '@web' => getenv('BASE_URL')
+    ]);
