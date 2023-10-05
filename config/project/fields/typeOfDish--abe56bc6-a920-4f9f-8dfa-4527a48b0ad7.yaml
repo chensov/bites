@@ -1,0 +1,19 @@
+columnSuffix: fygnhdmf
+contentColumnType: text
+fieldGroup: 1d18599f-28bf-4c6b-bd5e-6cdbab818044 # Cards
+handle: typeOfDish
+instructions: null
+name: 'Type of Dish'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

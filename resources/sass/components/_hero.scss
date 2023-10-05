@@ -7,13 +7,13 @@
 
 .hero-card {
   height: 500px;
-  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #fef9f9 50%);
+  background: #fcfffe;
   width: 90vw;
   border-radius: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 
 .card-left {
@@ -24,7 +24,7 @@
 
 .card-right {
   height: 100%;
-  background-image: url("/assets/images/hero_card_bg.jpg"); // Photo by Clark Douglas on Unsplash
+  // Photo by Clark Douglas on Unsplash
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

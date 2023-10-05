@@ -1,0 +1,19 @@
+columnSuffix: ypwfilfm
+contentColumnType: string(160)
+fieldGroup: 1d18599f-28bf-4c6b-bd5e-6cdbab818044 # Cards
+handle: cardTitle
+instructions: null
+name: 'Card Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 40
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

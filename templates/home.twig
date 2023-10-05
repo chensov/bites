@@ -1,20 +1,38 @@
 {% extends "index" %}
 {% block homeContent %}
+	{% set hours = entry.cookingTimeHours %}
+	{% set minutes = entry.cookingTimeMinutes %}
+	{% set output = "" %}
+	{% set mainCardImage = entry.featuredCardImage.one() %}
 	<div class="hero--wrapper">
 		<div class="hero-card">
 
 			<div class="card-left">
-				<span class="new-recipe">Featured 🎉</span>
+				<span class="new-recipe">{{ entry.featuredCardTitle }}</span>
 
 
 				<span class="new-info">
 					<div class="info-wrapper">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eveniet dignissimos vel ipsum saepe, quisquam non aspernatur perferendis cumque est temporibus nostrum ipsa totam quo obcaecati impedit commodi molestias quasi.
+						{{ entry.featuredDescription }}
 						<div class="wrap-dish-time">
 							<span class="new-time">
-								<span class="material-symbols-outlined">schedule</span>1h 5m</span>
+								<span class="material-symbols-outlined">schedule</span>
+
+
+								{% if hours and hours > 0 %}
+									{% set output = hours ~ " h" %}
+								{% endif %}
+								{% if minutes and minutes > 0 %}
+									{% set output = output ? output ~ " " ~ minutes ~ " m" : minutes ~ " m" %}
+								{% endif %}
+
+								{{ output }}
+
+
+							</span>
 							<span class="new-dish">
-								<span class="material-symbols-outlined">restaurant</span>Pasta</span>
+								<span class="material-symbols-outlined">restaurant</span>
+								{{entry.dishType}}</span>
 						</div>
 					</div>
 				</span>
@@ -35,18 +53,21 @@
 					</span>
 				</div>
 			</div>
-			<div class="card-right"></div>
+			<div class="card-right" style="background-image: url('{{ mainCardImage.url }}')"></div>
 		</div>
 	</div>
 	<main>
 		<div class="title-section">
-			<h1 class="mid-page-title">Try these amazing recipes</h1>
+			<h1 class="mid-page-title">Recipes under an hour</h1>
 		</div>
 		<div class="card-wrapper">
 			<div class="main--card-grid">
-				{% for i in 1..8 %}
+
+				{% set cardEntries = craft.entries.section('cards').limit(8).all() %}
+				{% for entry in cardEntries %}
 					{% include "_cards.twig" %}
 				{% endfor %}
+
 			</div>
 		</div>
 		<div class="explore-more-container">

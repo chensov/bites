@@ -1,15 +1,24 @@
+{% set gridImage = entry.cardImage.one() %}
+
 <div class="main--card">
 	<div class="main--card-wrapper">
 		<div class="card-img">
-			<img src="assets/images/card_test.png" alt="">
+			<img src="{{ gridImage.url }}" alt="">
+
 			<i class="fa-solid fa-heart likeB"></i>
 		</div>
-		<h3>Amazing Pasta ..</h3>
+		<h4>{{entry.cardTitle}}</h4>
 		<div class="card-bottom--info">
 			<span class="card-bottom-time">
-				<span class="material-symbols-outlined">schedule</span>30 minutes</span>
+				<span class="material-symbols-outlined">schedule</span>
+				{{entry.cookingTime}}
+				m
+
+
+			</span>
 			<span class="card-bottom-time">
-				<span class="material-symbols-outlined">restaurant</span>Dinner</span>
+				<span class="material-symbols-outlined">restaurant</span>
+				{{entry.typeOfDish}}</span>
 		</div>
 	</div>
 </div>

@@ -1,5 +1,5 @@
 fieldLayouts:
-  fec63489-9120-49c2-8736-d3dbd3280527:
+  3c1f2040-e879-41c2-a3eb-72a04427bd93:
     tabs:
       -
         elementCondition: null
@@ -26,93 +26,69 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: dbd9b529-7f21-4378-bce7-b332cfff95ec
+            uid: e781755c-2b70-4ba1-a148-821e1bbc8f61
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 7e00093f-3c78-42bf-931f-5c522a88d77f # Featured Card Title 
+            fieldUid: fae472b1-d526-4567-8a0a-f4821b7f8d20 # Card Title
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: baf78e60-5e09-471c-87f5-d249a1020cdc
+            uid: 318e4237-e952-456e-a0a5-e7d3bbb20bcb
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: ee4a59a9-c6ae-4cf9-8187-5045ebc64bd4 # Featured Card Image 
+            fieldUid: 8eeff1e3-4810-4aa5-a83e-43630265afdf # Card Image
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b71ef819-2d38-4407-a50c-8bc923f6fbf6
+            uid: e9772c07-772d-4f4d-9766-7907c18658ba
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9c25d975-ac38-4990-a0a2-0ebb6afaa93b # Featured Description
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 96bfe4e3-e56a-48ca-8763-f8d9ec76901c
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 9470a4be-a28e-440b-874e-bc4b68ac5c7a # Cooking Time - Hours
+            fieldUid: abe56bc6-a920-4f9f-8dfa-4527a48b0ad7 # Type of Dish
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 44673926-46d9-4c64-841a-58fcf2436be4
+            uid: 45ede00e-6eab-4316-934e-4a39a8c40bb2
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: da410dbc-f836-430d-bfe4-09778f5c9f24 # Cooking Time - Minutes
+            fieldUid: e950dc98-3d45-44f5-9ba8-90852ca6de5e # Cooking Time
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: fc8b093e-5af0-47aa-8fa8-e1405a860092
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: e0ee38b9-cff7-4972-9def-025e2c3e5b1b # Dish Type
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3a2401f8-d0e8-44b2-974c-e3f3bae5930a
+            uid: e9e586e7-fe33-4288-813b-be993713295d
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 175961c7-ef78-4eff-a912-95b293ed4cfa
+        uid: 4d217a65-25b3-4f9a-b847-5e11e36c27b0
         userCondition: null
-handle: home
-hasTitleField: false
-name: Home
-section: de58d882-4f08-46e5-b351-b963ad47133f # Home
+handle: default
+hasTitleField: true
+name: Default
+section: 34900664-ae6b-4631-86db-36aa62e63cd8 # Cards
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

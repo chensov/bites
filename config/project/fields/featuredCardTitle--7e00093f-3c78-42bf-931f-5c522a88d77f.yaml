@@ -1,0 +1,19 @@
+columnSuffix: yrybmceu
+contentColumnType: string(80)
+fieldGroup: 0f2aa2c7-172c-4904-a9f3-0911a7d852f1 # Home
+handle: featuredCardTitle
+instructions: null
+name: 'Featured Card Title '
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 20
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

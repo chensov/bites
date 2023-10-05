@@ -1,29 +1,38 @@
-dateModified: 1696500223
+dateModified: 1696509493
 email:
   fromEmail: senche.dev@gmail.com
   fromName: Bites.
   transportType: craft\mail\transportadapters\Sendmail
 fs:
-  cardimages:
+  uploads:
     hasUrls: true
-    name: cardImages
+    name: Uploads
     settings:
-      path: '@webroot/uploads '
+      path: $ASSET_BASE_PATH
     type: craft\fs\Local
-    url: '@web/uploads'
+    url: $ASSET_BASE_URL
 meta:
   __names__:
-    3c7f84ab-5d81-4834-b886-43ac1cbc1f18: 'Card Title' # Card Title
-    34bf9915-dd68-46ea-84f7-77264461b24a: cardOne # cardOne
-    47cf6c3f-3672-4941-adb2-8a8f74efc0e6: Default # Default
-    67a11a82-0fd8-4bab-a6ba-881d1c2b9aa0: home # home
-    73e8339c-fedb-4096-b3da-0c80cc12edde: 'Main Cards' # Main Cards
-    86cb342e-6809-4ceb-98fc-7a1017678e7c: 'Card Images' # Card Images
-    91a76f4b-a03d-424b-b9c4-2c00b1095582: 'Card One Image' # Card One Image
+    0f2aa2c7-172c-4904-a9f3-0911a7d852f1: Home # Home
+    1d18599f-28bf-4c6b-bd5e-6cdbab818044: Cards # Cards
+    7e00093f-3c78-42bf-931f-5c522a88d77f: 'Featured Card Title ' # Featured Card Title 
+    8eeff1e3-4810-4aa5-a83e-43630265afdf: 'Card Image' # Card Image
+    9c25d975-ac38-4990-a0a2-0ebb6afaa93b: 'Featured Description' # Featured Description
+    67a11a82-0fd8-4bab-a6ba-881d1c2b9aa0: Home # Home
     97b39696-39d5-4c02-a9d8-7c992bca8c70: Common # Common
     5957fd25-68f5-48f7-9420-f145a9452018: Bites. # Bites.
+    9470a4be-a28e-440b-874e-bc4b68ac5c7a: 'Cooking Time - Hours' # Cooking Time - Hours
+    081460bb-51de-4479-ad7e-d9bdffef15b9: Uploads # Uploads
+    34900664-ae6b-4631-86db-36aa62e63cd8: Cards # Cards
+    abe56bc6-a920-4f9f-8dfa-4527a48b0ad7: 'Type of Dish' # Type of Dish
     c87257bb-1f30-4e68-9e42-a93172794cf3: Bites. # Bites.
-    de58d882-4f08-46e5-b351-b963ad47133f: home # home
+    da410dbc-f836-430d-bfe4-09778f5c9f24: 'Cooking Time - Minutes' # Cooking Time - Minutes
+    dcdf5b63-e85a-4871-9d0a-b2dc65c8a2de: Default # Default
+    de58d882-4f08-46e5-b351-b963ad47133f: Home # Home
+    e0ee38b9-cff7-4972-9def-025e2c3e5b1b: 'Dish Type' # Dish Type
+    e950dc98-3d45-44f5-9ba8-90852ca6de5e: 'Cooking Time' # Cooking Time
+    ee4a59a9-c6ae-4cf9-8187-5045ebc64bd4: 'Featured Card Image ' # Featured Card Image 
+    fae472b1-d526-4567-8a0a-f4821b7f8d20: 'Card Title' # Card Title
 system:
   edition: pro
   live: true

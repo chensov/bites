@@ -1,0 +1,20 @@
+columnSuffix: blcxukwz
+contentColumnType: smallint(2)
+fieldGroup: 1d18599f-28bf-4c6b-bd5e-6cdbab818044 # Cards
+handle: cookingTime
+instructions: null
+name: 'Cooking Time'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: 59
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

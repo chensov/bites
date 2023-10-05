@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 .top-social {
   position: relative;
   display: flex;
@@ -74,13 +74,13 @@ li {
 
 .hero-card {
   height: 500px;
-  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #fef9f9 50%);
+  background: #fcfffe;
   width: 90vw;
   border-radius: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 
 .card-left {
@@ -91,7 +91,6 @@ li {
 
 .card-right {
   height: 100%;
-  background-image: url("/assets/images/hero_card_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -196,7 +195,7 @@ li {
 }
 
 .main--card-grid {
-  gap: 100px;
+  gap: 2vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -210,8 +209,8 @@ li {
 }
 
 .main--card {
-  width: 300px;
-  height: 350px;
+  width: 340px;
+  height: 390px;
   background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #f9f9f9 100%);
   border-radius: 50px;
   display: flex;
@@ -219,6 +218,7 @@ li {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
 }
 
 .main--card-wrapper {
@@ -233,8 +233,10 @@ li {
   display: block;
   margin: 15px auto;
 }
-.main--card-wrapper h3 {
-  margin: 30px 0 0 30px;
+.main--card-wrapper h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main--card-wrapper p {
@@ -242,18 +244,23 @@ li {
 }
 
 .card-img {
-  width: 100%;
-  height: 100%;
-  margin-top: 10px;
+  width: 320px;
+  height: 200px;
+  margin-top: 20px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
 .card-img img {
-  width: 90%;
-  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: inherit;
   display: block;
   margin: 0;
 }
@@ -278,7 +285,7 @@ i.fa-solid.fa-heart:hover {
 }
 
 .card-bottom--info {
-  height: 100%;
+  height: 80%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -294,7 +301,8 @@ i.fa-solid.fa-heart:hover {
 
 .mid-page-title {
   margin: 50px 0;
-  color: #e07188;
+  color: #71e098;
+  font-family: "Courgette", cursive;
 }
 
 .explore-more-container {
@@ -374,6 +382,99 @@ footer p {
   color: #b7e6ff;
 }
 
+.login-modal {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-modal form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+  background-color: #72ffc7;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  z-index: 2000;
+}
+.login-modal form P {
+  font-size: 0.88rem;
+  color: #9d9d9d;
+}
+.login-modal form h3 {
+  margin-bottom: 30px;
+}
+.login-modal form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 10px 0;
+  padding-left: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+}
+.login-modal form button {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #fff;
+}
+.login-modal form button:hover {
+  opacity: 0.7;
+}
+
+input::placeholder {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  padding-left: 10px;
+  border-color: rgb(173, 255, 193);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.login-btn {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.login-btn:hover {
+  opacity: 0.5;
+}
+
+.close-modal {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2010;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -383,4 +484,8 @@ body {
   background: #ffffff;
   font-family: "Poppins", sans-serif;
   color: #323232;
+}
+
+.hidden {
+  display: none;
 }

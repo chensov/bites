@@ -1,0 +1,19 @@
+columnSuffix: ryrofuqi
+contentColumnType: string(1040)
+fieldGroup: 0f2aa2c7-172c-4904-a9f3-0911a7d852f1 # Home
+handle: featuredDescription
+instructions: 'Write a description about this featured dish'
+name: 'Featured Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 260
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

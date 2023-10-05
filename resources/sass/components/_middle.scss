@@ -7,7 +7,7 @@
 }
 
 .main--card-grid {
-  gap: 100px;
+  gap: 2vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -21,8 +21,8 @@
 }
 
 .main--card {
-  width: 300px;
-  height: 350px;
+  width: 340px;
+  height: 390px;
   background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #f9f9f9 100%);
   border-radius: 50px;
   display: flex;
@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
 }
 
 .main--card-wrapper {
@@ -45,8 +46,10 @@
     margin: 15px auto;
   }
 
-  h3 {
-    margin: 30px 0 0 30px;
+  h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -55,18 +58,23 @@
 }
 
 .card-img {
-  width: 100%;
-  height: 100%;
-  margin-top: 10px;
+  width: 320px;
+  height: 200px;
+  margin-top: 20px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
 .card-img img {
-  width: 90%;
-  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: inherit;
   display: block;
   margin: 0;
 }
@@ -91,7 +99,7 @@ i.fa-solid.fa-heart:hover {
 }
 
 .card-bottom--info {
-  height: 100%;
+  height: 80%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -109,6 +117,7 @@ i.fa-solid.fa-heart:hover {
 .mid-page-title {
   margin: 50px 0;
   color: $color-contrast-rose;
+  font-family: "Courgette", cursive;
 }
 
 .explore-more-container {

@@ -3,7 +3,8 @@
 @import "components/hero";
 @import "components/middle";
 @import "components/footer";
-@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import "components/modal";
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 * {
   margin: 0;
@@ -14,4 +15,8 @@ body {
   background: $color-background;
   font-family: "Poppins", sans-serif;
   color: #323232;
+}
+
+.hidden {
+  display: none;
 }

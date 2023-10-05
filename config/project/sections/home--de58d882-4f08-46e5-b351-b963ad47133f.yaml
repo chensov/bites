@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 handle: home
-name: home
+name: Home
 propagationMethod: all
 siteSettings:
   5957fd25-68f5-48f7-9420-f145a9452018: # Bites.
