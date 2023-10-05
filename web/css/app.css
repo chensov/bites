@@ -270,7 +270,11 @@ li {
 }
 
 i.fa-solid.fa-heart:hover {
-  color: rgb(255, 67, 67);
+  color: #ff436c;
+}
+
+.color-toggle {
+  color: #ff436c;
 }
 
 .card-bottom--info {
