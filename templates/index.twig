@@ -22,24 +22,24 @@
 				</ul>
 			</nav>
 			<div class="login">
-				<span class="login-btn">Log In</span>
-				<span class="sign--up-btn">Sign Up</span>
+				{% if currentUser %}
+					<span>Hey,
+						{{ currentUser.username }}</span>
+					<form method="post" action="{{ url('actions/users/logout') }}" style="display: inline;">
+						{{ csrfInput() }}
+						<a style="text-decoration:none" href="#" onclick="this.closest('form').submit();" class="logout-link sign--up-btn">Log Out</a>
+					</form>
+				{% else %}
+					<span class="login-btn">Log In</span>
+					<span class="sign--up-btn">Sign Up</span>
+				{% endif %}
 			</div>
+
 		</div>
 
-		<div class="login-modal hidden">
-			<form method="get">
-				<span class="close-modal">
-					<span class="material-symbols-outlined">close</span>
-				</span>
-				<h3>Hey, welcome back! 👋</h3>
-				<input type="username" placeholder="username">
-				<input type="password" placeholder="••••••••">
-				<p>Forgot username or password</p>
-				<button>Sign In</button>
-			</form>
-		</div>
 
+		{% include "partials/_login.twig" %}
+		{% include "partials/_register.twig" %}
 
 		{% block homeContent %}{% endblock %}
 
@@ -56,11 +56,7 @@
 					</ul>
 				</div>
 				<div class="footer-right">
-					<ul
-						class="social-icons"><!-- Add your list items here. For example:
-							        <li><a href="#">Icon Here</a></li>
-							        -->
-					</ul>
+					<ul class="social-icons"></ul>
 				</div>
 			</div>
 			<p>&copy; 2023 bites. All rights reserved.</p>

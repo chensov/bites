@@ -1,4 +1,4 @@
-dateModified: 1696509493
+dateModified: 1696521643
 email:
   fromEmail: senche.dev@gmail.com
   fromName: Bites.
@@ -24,6 +24,7 @@ meta:
     9470a4be-a28e-440b-874e-bc4b68ac5c7a: 'Cooking Time - Hours' # Cooking Time - Hours
     081460bb-51de-4479-ad7e-d9bdffef15b9: Uploads # Uploads
     34900664-ae6b-4631-86db-36aa62e63cd8: Cards # Cards
+    a6da2235-77ad-45fd-876f-fc6200d3c2fd: 'Public Schema' # Public Schema
     abe56bc6-a920-4f9f-8dfa-4527a48b0ad7: 'Type of Dish' # Type of Dish
     c87257bb-1f30-4e68-9e42-a93172794cf3: Bites. # Bites.
     da410dbc-f836-430d-bfe4-09778f5c9f24: 'Cooking Time - Minutes' # Cooking Time - Minutes
@@ -40,8 +41,10 @@ system:
   schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
 users:
-  allowPublicRegistration: false
-  defaultGroup: null
+  allowPublicRegistration: true
+  deactivateByDefault: false
+  defaultGroup: ''
   photoSubpath: null
   photoVolumeUid: null
   requireEmailVerification: true
+  validateOnPublicRegistration: false

@@ -64,4 +64,10 @@ li {
   margin: 0 10px;
   color: #fff;
   margin-left: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.sign--up-btn:hover {
+  opacity: 0.8;
 }

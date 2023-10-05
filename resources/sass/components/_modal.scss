@@ -29,33 +29,34 @@
     h3 {
       margin-bottom: 30px;
     }
-    input {
-      width: 300px;
-      height: 40px;
-      border-radius: 30px;
-      margin: 10px 0;
-      padding-left: 10px;
-      border: 2px solid transparent;
-      box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
-      font-size: 1.2rem;
-    }
-    button {
-      width: 300px;
-      height: 40px;
-      border-radius: 30px;
-      margin-top: 30px;
-      padding-left: 10px;
-      border: 2px solid transparent;
-      box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
-      font-size: 1.2rem;
-      cursor: pointer;
-      background-color: #fff;
-    }
-
-    button:hover {
-      opacity: 0.7;
-    }
   }
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 10px 0;
+  padding-left: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+}
+button {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+button:hover {
+  opacity: 0.7;
 }
 
 input::placeholder {
@@ -65,7 +66,6 @@ input::placeholder {
 input:focus {
   outline: none;
   padding-left: 10px;
-  border-color: rgb(173, 255, 193);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -79,6 +79,58 @@ input:focus {
 }
 
 .close-modal {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2010;
+}
+
+.register-modal {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-wrap {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  background-color: #bdffe6;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  z-index: 3000;
+}
+
+.register-modal form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+}
+
+.close-modal-reg {
   position: absolute;
   top: -5px;
   right: -5px;
