@@ -308,9 +308,66 @@ i.fa-solid.fa-heart:hover {
 }
 
 footer {
-  height: 200px;
-  margin-top: 100px;
   background-color: #71e0a8;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+footer p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.footer-wrap {
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 130px;
+  border-right: 1px solid #ffffff;
+}
+.footer-left ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer-left ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons li a {
+  color: #ffffff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons li a:hover {
+  color: #b7e6ff;
 }
 
 * {
