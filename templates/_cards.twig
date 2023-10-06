@@ -1,12 +1,15 @@
 {% set gridImage = entry.cardImage.one() %}
 
+
 <div class="main--card">
 	<div class="main--card-wrapper">
 		<div class="card-img">
 			<img src="{{ gridImage.url }}" alt="">
-
+			{% if currentUser %}{% endif %}
 			<i class="fa-solid fa-heart likeB"></i>
+
 		</div>
+
 		<h4>{{entry.cardTitle}}</h4>
 		<div class="card-bottom--info">
 			<span class="card-bottom-time">

@@ -4,6 +4,7 @@
 @import "components/middle";
 @import "components/footer";
 @import "components/modal";
+@import "components/recipe";
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 * {
@@ -15,8 +16,16 @@ body {
   background: $color-background;
   font-family: "Poppins", sans-serif;
   color: #323232;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .hidden {
   display: none;
+}
+
+.page-content {
+  flex: 1 0 auto;
+  min-width: 100vh;
 }

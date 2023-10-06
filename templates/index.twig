@@ -40,28 +40,27 @@
 
 		{% include "partials/_login.twig" %}
 		{% include "partials/_register.twig" %}
-
-		{% block homeContent %}{% endblock %}
-
-
-		<footer>
-			<div class="footer-wrap">
-				<div class="footer-left">
-					<ul>
-						<li><a href="#aboutus">About Us</a></li>
-						<li><a href="#faq">FAQs</a></li>
-						<li><a href="#careers">Careers</a></li>
-						<li><a href="#socialmedia">Social Media</a></li>
-						<li><a href="#privacy">Privacy Policy</a></li>
-					</ul>
-				</div>
-				<div class="footer-right">
-					<ul class="social-icons"></ul>
-				</div>
+		<div class="page-content"> {% block content %}{% endblock %}
 			</div>
-			<p>&copy; 2023 bites. All rights reserved.</p>
-		</footer>
-		<script src="{{ alias('@web/js/like.js') }}"></script>
-		<script src="{{ alias('@web/js/modal.js') }}"></script>
-	</body>
-</html>
+
+			<footer>
+				<div class="footer-wrap">
+					<div class="footer-left">
+						<ul>
+							<li><a href="#aboutus">About Us</a></li>
+							<li><a href="#faq">FAQs</a></li>
+							<li><a href="#careers">Careers</a></li>
+							<li><a href="#socialmedia">Social Media</a></li>
+							<li><a href="#privacy">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="footer-right">
+						<ul class="social-icons"></ul>
+					</div>
+				</div>
+				<p>&copy; 2023 bites. All rights reserved.</p>
+			</footer>
+			<script src="{{ alias('@web/js/like.js') }}"></script>
+			<script src="{{ alias('@web/js/modal.js') }}"></script>
+		</body>
+	</html>

@@ -1,9 +1,10 @@
 {% extends "index" %}
-{% block homeContent %}
+{% block content %}
 	{% set hours = entry.cookingTimeHours %}
 	{% set minutes = entry.cookingTimeMinutes %}
 	{% set output = "" %}
 	{% set mainCardImage = entry.featuredCardImage.one() %}
+
 	<div class="hero--wrapper">
 		<div class="hero-card">
 
@@ -74,4 +75,6 @@
 			<span>Explore more recipes</span>
 		</div>
 	</main>
+
+
 {% endblock %}

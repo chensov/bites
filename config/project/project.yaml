@@ -1,4 +1,4 @@
-dateModified: 1696521643
+dateModified: 1696615277
 email:
   fromEmail: senche.dev@gmail.com
   fromName: Bites.
@@ -13,13 +13,19 @@ fs:
     url: $ASSET_BASE_URL
 meta:
   __names__:
+    0c5d5dd2-0868-4e92-a369-4de8c79d9202: 'Recipe Instructions' # Recipe Instructions
     0f2aa2c7-172c-4904-a9f3-0911a7d852f1: Home # Home
     1d18599f-28bf-4c6b-bd5e-6cdbab818044: Cards # Cards
+    4a04a88d-9ba8-43b3-ac19-e17071555f79: Default # Default
+    7a2c8e56-292b-430e-b3b4-9472060a48b6: Comments # Comments
     7e00093f-3c78-42bf-931f-5c522a88d77f: 'Featured Card Title ' # Featured Card Title 
     8eeff1e3-4810-4aa5-a83e-43630265afdf: 'Card Image' # Card Image
     9c25d975-ac38-4990-a0a2-0ebb6afaa93b: 'Featured Description' # Featured Description
+    47cc5187-7a06-4e2f-9327-d98a9f9748c3: List # List
     67a11a82-0fd8-4bab-a6ba-881d1c2b9aa0: Home # Home
     97b39696-39d5-4c02-a9d8-7c992bca8c70: Common # Common
+    260f2c7e-49ba-49f2-a7d1-1f86fceb75a5: Default # Default
+    600e750f-c033-47a6-b943-8e378f651e04: Instruction # Instruction
     5957fd25-68f5-48f7-9420-f145a9452018: Bites. # Bites.
     9470a4be-a28e-440b-874e-bc4b68ac5c7a: 'Cooking Time - Hours' # Cooking Time - Hours
     081460bb-51de-4479-ad7e-d9bdffef15b9: Uploads # Uploads
@@ -27,6 +33,7 @@ meta:
     a6da2235-77ad-45fd-876f-fc6200d3c2fd: 'Public Schema' # Public Schema
     abe56bc6-a920-4f9f-8dfa-4527a48b0ad7: 'Type of Dish' # Type of Dish
     c87257bb-1f30-4e68-9e42-a93172794cf3: Bites. # Bites.
+    cae05f3e-cedc-4829-aeb9-362960b98ca6: Recipe # Recipe
     da410dbc-f836-430d-bfe4-09778f5c9f24: 'Cooking Time - Minutes' # Cooking Time - Minutes
     dcdf5b63-e85a-4871-9d0a-b2dc65c8a2de: Default # Default
     de58d882-4f08-46e5-b351-b963ad47133f: Home # Home
@@ -34,6 +41,35 @@ meta:
     e950dc98-3d45-44f5-9ba8-90852ca6de5e: 'Cooking Time' # Cooking Time
     ee4a59a9-c6ae-4cf9-8187-5045ebc64bd4: 'Featured Card Image ' # Featured Card Image 
     fae472b1-d526-4567-8a0a-f4821b7f8d20: 'Card Title' # Card Title
+plugins:
+  guest-entries:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+    settings:
+      enableCsrfProtection: '1'
+      entryVariable: entry
+      sections:
+        __assoc__:
+          -
+            - 7a2c8e56-292b-430e-b3b4-9472060a48b6 # Comments
+            -
+              __assoc__:
+                -
+                  - sectionUid
+                  - 7a2c8e56-292b-430e-b3b4-9472060a48b6 # Comments
+                -
+                  - allowGuestSubmissions
+                  - '1'
+                -
+                  - enabledByDefault
+                  - ''
+                -
+                  - runValidation
+                  - ''
+                -
+                  - authorUid
+                  - 772997ba-c62d-4da9-9bcf-c96f73b03d3b
 system:
   edition: pro
   live: true

@@ -1,0 +1,46 @@
+fieldLayouts:
+  57bee087-4fd4-47b1-b087-8ffaac49e1bb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2e7df920-acf4-4016-91fc-60ae80251ac0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: df0844a4-14d4-46a0-bfc2-ee2e1756ddc6
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: cae05f3e-cedc-4829-aeb9-362960b98ca6 # Recipe
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

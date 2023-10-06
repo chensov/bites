@@ -32,7 +32,6 @@
   align-items: center;
   color: #71e0a8;
   font-size: 1.4rem;
-  font-family: "Lalezar" !important;
 }
 
 nav {
@@ -535,6 +534,84 @@ input:focus {
   z-index: 2010;
 }
 
+.recipe-wrap {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-card {
+  height: 80%;
+  background: #fcfffe;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
+.recipe-card h1 {
+  font-size: 4rem;
+  width: 80%;
+}
+.recipe-card img {
+  width: 600px;
+}
+
+.recipe-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipie-content {
+  margin-top: 20px;
+}
+
+.serves-wrap {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.serves-wrap .serves {
+  border: 2px solid #71e0a8;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serves-wrap .serves:first-child {
+  background: #71e0a8;
+  border: 0px;
+  height: 130px;
+}
+
+.recipe-right ol {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.recipe-right ol li {
+  margin: 10px 0;
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: rgb(173, 230, 203);
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -544,8 +621,16 @@ body {
   background: #ffffff;
   font-family: "Poppins", sans-serif;
   color: #323232;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .hidden {
   display: none;
+}
+
+.page-content {
+  flex: 1 0 auto;
+  min-width: 100vh;
 }

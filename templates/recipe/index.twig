@@ -1,0 +1,61 @@
+{% extends "index" %}
+{% set entry = craft.entries.section('cards').one() %}
+{% block content %}
+
+	<div class="recipe-wrap">
+
+		<div class="recipe-card">
+
+			<div class="recipe-right">
+				<h1>{{entry.cardTitle}}</h1>
+				<div class="recipie-content">
+					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit rhoncus fringilla, platea accumsan nec ultricies dapibus vel vestibulum litora torquent, nascetur venenatis tempor nulla a mi eleifend est. Molestie nullam habitasse suscipit praesent turpis iaculis hac, curae erat gravida porttitor convallis.</p>
+				</div>
+				<section class="serves-wrap">
+					<div class="serves">
+
+						<span class="material-symbols-outlined">schedule</span>
+						<p>&nbsp;35 m</p>
+					</div>
+					<div class="serves">
+
+						<span class="material-symbols-outlined">
+							groups
+						</span>
+						<p>&nbsp;4</p>
+					</div>
+					<div class="serves">
+						<span class="material-symbols-outlined">
+							restaurant
+						</span>
+						<p>&nbsp;Pasta</p>
+					</div>
+					<div class="serves">
+						<span class="material-symbols-outlined">
+							nutrition
+						</span>
+						<p>&nbsp;655 cal</p>
+					</div>
+				</section>
+
+
+				<ol>
+					<h3>Step by step</h3>
+					{% for block in entry.recipeInstructions.all() %}
+						<li>{{ block.instruction }}</li>
+					{% endfor %}
+				</ol>
+
+
+			</div>
+
+			<div class="recipe-left">
+				<img
+				src="uploads/2023_penne-quattro-formaggi3-aufmacher.jpg" alt="">
+
+
+			{# <img src="{{ gridImage.url }}" alt=""> #}
+			</div>
+		</div>
+
+	{% endblock %}
