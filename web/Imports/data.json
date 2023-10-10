@@ -1,0 +1,666 @@
+[
+  {
+    "title": "Chilli Chicken Wrap",
+    "cardTitle": "Chilli Chicken Wrap",
+    "cookingTime": 45,
+    "cookingTip": "For a spicier kick, add an extra dash of chilli sauce or use hot chilli powder.",
+    "shortDishDescription": "The Chilli Chicken Wrap combines tender chicken pieces marinated in a spicy chilli sauce, wrapped up in a soft tortilla with fresh veggies. It's a quick and flavorful meal for those on the go.",
+    "typeOfDish": "Wrap",
+    "slug": "chilli-chicken-wrap",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 boneless chicken breasts, thinly sliced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp chilli sauce" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 tsp chilli powder" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp olive oil" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "4 large tortilla wraps" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1/2 cup lettuce, shredded" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1/2 cup red bell pepper, thinly sliced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1/2 cup grated cheese (optional)" }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Marinate Chicken",
+          "instruction": "In a bowl, mix the sliced chicken, chilli sauce, chilli powder, and let it marinate for 20 minutes."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Chicken",
+          "instruction": "In a skillet, heat olive oil over medium heat. Add the marinated chicken and cook until it's fully cooked and slightly charred."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Prepare Wrap",
+          "instruction": "Lay a tortilla flat, add lettuce, bell pepper, cooked chicken, and cheese (if using). Roll up tightly, securing with a toothpick if needed."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Serve",
+          "instruction": "Cut the wrap in half diagonally and serve immediately. Enjoy!"
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Spaghetti alla Puttanesca",
+    "cardTitle": "Spaghetti alla Puttanesca",
+    "cookingTime": 40,
+    "cookingTip": "For a richer flavor, let the sauce simmer a little longer. Use fresh basil or parsley for garnishing.",
+    "shortDishDescription": "Spaghetti alla Puttanesca is a flavorful Italian pasta dish made with tomatoes, olives, anchovies, and capers. Its bold and savory flavors are sure to delight.",
+    "typeOfDish": "Pasta",
+    "slug": "spaghetti-alla-puttanesca",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "200g spaghetti" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp olive oil" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 cloves garlic, minced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 tin anchovy fillets, drained and chopped" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1/2 cup black olives, pitted and sliced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp capers, rinsed and drained" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 tsp chili flakes (optional)" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 can (400g) diced tomatoes" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Salt and pepper, to taste" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Fresh parsley or basil, for garnish" }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Prepare Pasta",
+          "instruction": "Boil spaghetti in salted water according to package instructions until al dente. Drain and set aside."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Make Sauce",
+          "instruction": "In a skillet, heat olive oil over medium heat. Add garlic, anchovies, and chili flakes (if using). Cook until garlic is golden and anchovies have melted into the oil."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Ingredients",
+          "instruction": "Stir in the olives, capers, and diced tomatoes. Let it simmer for about 10 minutes. Season with salt and pepper."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Combine Pasta and Sauce",
+          "instruction": "Add the drained spaghetti to the sauce and toss to combine thoroughly."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Serve",
+          "instruction": "Serve the pasta hot, garnished with fresh parsley or basil. Enjoy!"
+        }
+      }
+    ]
+  },
+  {
+    "title": "CREAMY ASPARAGUS BACON SOUP",
+    "cardTitle": "Creamy Asparagus Bacon Soup",
+    "cookingTime": 40,
+    "cookingTip": "Roasting the asparagus first can enhance the flavor of the soup.",
+    "shortDishDescription": "A velvety soup that combines the earthiness of asparagus with the rich, savory flavor of bacon. The creamy texture is sure to comfort and delight.",
+    "typeOfDish": "Soup",
+    "slug": "creamy-asparagus-bacon-soup",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 bunch of asparagus, trimmed and chopped" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "4 strips of bacon, diced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 onion, chopped" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 cloves of garlic, minced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "4 cups chicken or vegetable broth" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 cup heavy cream" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Salt and pepper to taste" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 tbsp olive oil" }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Bacon",
+          "instruction": "In a pot, cook the diced bacon until crispy. Remove bacon and set aside, leaving the grease in the pot."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Sauté Veggies",
+          "instruction": "Add olive oil, chopped onion, and garlic to the pot. Sauté until onions are translucent."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Asparagus",
+          "instruction": "Introduce the asparagus to the pot and cook for another 5 minutes."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Broth",
+          "instruction": "Pour in the chicken or vegetable broth and bring the mixture to a boil. Reduce the heat and let it simmer until the asparagus is tender."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Blend & Add Cream",
+          "instruction": "Use an immersion blender to puree the soup until smooth. Alternatively, you can use a regular blender. Once smooth, stir in the heavy cream. Season with salt and pepper."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Serve",
+          "instruction": "Serve the soup hot and garnished with the crispy bacon bits."
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Creamy Chicken Pasta",
+    "cardTitle": "Creamy Chicken Pasta",
+    "cookingTime": 30,
+    "cookingTip": "Using fresh herbs like basil or parsley can elevate the dish's freshness.",
+    "shortDishDescription": "This Creamy Chicken Pasta dish combines tender pieces of chicken with a rich and creamy sauce. It's the perfect comfort dish that's ready in no time.",
+    "typeOfDish": "Pasta",
+    "slug": "creamy-chicken-pasta",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "200g pasta of choice" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 chicken breasts, diced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 onion, finely chopped" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 cloves of garlic, minced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 cup heavy cream" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1/2 cup grated Parmesan cheese" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp olive oil" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Salt and pepper to taste" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": {
+          "ingredient": "Fresh basil or parsley, chopped, for garnish"
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Pasta",
+          "instruction": "Boil pasta in salted water according to package instructions. Drain and set aside."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Chicken",
+          "instruction": "In a large skillet, heat olive oil over medium heat. Add the chicken and cook until browned. Remove and set aside."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Sauté Onions & Garlic",
+          "instruction": "In the same skillet, add more oil if needed. Sauté onions until translucent, then add garlic and sauté for another minute."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Cream & Cheese",
+          "instruction": "Pour in the heavy cream and bring to a light simmer. Stir in the Parmesan cheese until melted and the sauce thickens."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Combine Chicken, Pasta & Sauce",
+          "instruction": "Return the cooked chicken to the skillet. Add the drained pasta and toss to combine with the sauce."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Serve",
+          "instruction": "Serve immediately, garnished with fresh herbs. Season with salt and pepper to taste."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Rustic Ragu Beef Pasta",
+    "cardTitle": "Rustic Ragu Beef Pasta",
+    "cookingTime": 45,
+    "cookingTip": "Slowly simmering the beef in tomato sauce brings out a deeper flavor.",
+    "shortDishDescription": "A traditional, hearty pasta dish. Ground beef simmered in a rich tomato sauce, served over perfectly cooked pasta.",
+    "typeOfDish": "Pasta",
+    "slug": "rustic-ragu-beef-pasta",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "200g pasta of choice" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "500g ground beef" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 can (400g) crushed tomatoes" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 onion, finely chopped" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 cloves of garlic, minced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 tbsp olive oil" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1/2 cup red wine (optional)" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Salt and pepper to taste" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": {
+          "ingredient": "Fresh basil or parsley, chopped, for garnish"
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Pasta",
+          "instruction": "In a large pot, boil pasta in salted water according to package directions until al dente. Drain and set aside."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Brown the Beef",
+          "instruction": "In a separate pot, heat olive oil over medium heat. Add the ground beef and cook until browned, breaking it up with a spoon as it cooks."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Onions & Garlic",
+          "instruction": "Push the beef to the side and add the chopped onions to the pot. Sauté until translucent. Add the minced garlic and cook for another minute."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Tomatoes & Wine",
+          "instruction": "Pour in the crushed tomatoes and red wine (if using). Stir well."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Simmer",
+          "instruction": "Reduce the heat to low and let the beef sauce simmer for at least 30 minutes, stirring occasionally."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Combine Pasta & Sauce",
+          "instruction": "Toss the cooked pasta into the beef sauce until well combined."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Serve",
+          "instruction": "Serve hot, garnished with chopped herbs and additional grated cheese if desired."
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Prawn Cocktail Salad",
+    "cardTitle": "Prawn Cocktail Salad",
+    "cookingTime": 15,
+    "cookingTip": "For a fresher taste, use wild-caught prawns and freshly squeezed lemon juice.",
+    "shortDishDescription": "A classic appetizer combining succulent prawns, crispy lettuce, and a tangy cocktail sauce.",
+    "typeOfDish": "Salad",
+    "slug": "prawn-cocktail-salad",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "200g prawns, cooked and peeled" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 head iceberg lettuce, shredded" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "4 tbsp mayonnaise" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp ketchup" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 tbsp lemon juice" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Salt and pepper to taste" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 avocado, sliced (optional)" }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Prepare Cocktail Sauce",
+          "instruction": "In a bowl, mix mayonnaise, ketchup, lemon juice. Season with salt and pepper. Adjust to taste."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Assemble the Salad",
+          "instruction": "On individual plates or a large serving platter, layer the shredded lettuce. Top with prawns and drizzle the cocktail sauce over."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Serve",
+          "instruction": "Garnish with avocado slices if desired and serve immediately."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Pasta Carbonara",
+    "cardTitle": "Classic Pasta Carbonara",
+    "cookingTime": 30,
+    "cookingTip": "For best results, use fresh eggs and high-quality grated Pecorino Romano cheese.",
+    "shortDishDescription": "Pasta Carbonara is a classic Roman dish made with egg, hard cheese, cured pork, and black pepper. The creamy sauce is achieved using eggs, not cream.",
+    "typeOfDish": "Pasta",
+    "slug": "pasta-carbonara",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "400g spaghetti or linguine" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "100g pancetta or guanciale, diced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "3 large eggs" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 cup grated Pecorino Romano cheese" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Salt, to taste" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Freshly ground black pepper, to taste" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 cloves garlic, minced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp olive oil" }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Pasta",
+          "instruction": "Bring a large pot of salted water to boil. Cook the spaghetti or linguine according to the package instructions until al dente. Reserve 1 cup of pasta water and then drain the pasta."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Prepare Sauce",
+          "instruction": "In a bowl, whisk together eggs and Pecorino Romano cheese until well combined. Season with a pinch of salt and black pepper."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Pancetta",
+          "instruction": "In a large skillet, heat olive oil over medium heat. Add the minced garlic and diced pancetta or guanciale. Cook until the meat is crispy."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Combine Pasta and Sauce",
+          "instruction": "Reduce the heat to low. Add the cooked pasta to the skillet and toss to combine. Remove from heat. While tossing the pasta, gradually add the egg and cheese mixture. Add reserved pasta water little by little until the desired sauce consistency is achieved."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Serve",
+          "instruction": "Serve the pasta immediately while hot, topped with additional Pecorino Romano cheese and freshly ground black pepper. Enjoy!"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Chicken and Chorizo Paella",
+    "cardTitle": "Quick Chicken and Chorizo Paella",
+    "cookingTime": 50,
+    "cookingTip": "Using a wide, shallow pan helps the rice to cook evenly and absorb flavors better.",
+    "shortDishDescription": "This quick version of Chicken and Chorizo Paella combines the rich flavors of chorizo with tender chicken and aromatic saffron-infused rice.",
+    "typeOfDish": "Rice",
+    "slug": "chicken-chorizo-paella",
+    "Instructions": [
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 cup paella or Arborio rice" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 chicken breasts, diced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "150g chorizo sausage, sliced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 onion, finely chopped" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 garlic cloves, minced" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1 red bell pepper, chopped" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": {
+          "ingredient": "1/4 teaspoon saffron threads or saffron powder"
+        }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 1/2 cups chicken broth" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "1/2 cup frozen peas" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "2 tbsp olive oil" }
+      },
+      {
+        "type": "ingredientList",
+        "fields": { "ingredient": "Lemon wedges, for serving" }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Cook Chicken and Chorizo",
+          "instruction": "In a large pan or paella pan, heat olive oil over medium heat. Add the diced chicken and cook until browned. Add the sliced chorizo and cook for an additional 2-3 minutes."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Sauté Vegetables",
+          "instruction": "Add the finely chopped onion, minced garlic, and chopped bell pepper to the pan. Sauté until the onion becomes translucent."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Rice",
+          "instruction": "Stir in the paella or Arborio rice, ensuring it's well-coated in the oil and has taken on some color."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Broth and Saffron",
+          "instruction": "Pour in the chicken broth and sprinkle with saffron threads or powder. Stir well and bring to a boil. Reduce the heat to low, cover, and let it simmer for 20 minutes, or until the rice is almost cooked."
+        }
+      },
+      {
+        "type": "recipeInstructions",
+        "fields": {
+          "instructionTitle": "Add Peas and Serve",
+          "instruction": "Scatter the frozen peas on top of the rice. Cover and cook for an additional 5 minutes. Serve the paella hot, garnished with lemon wedges."
+        }
+      }
+    ]
+  }
+]

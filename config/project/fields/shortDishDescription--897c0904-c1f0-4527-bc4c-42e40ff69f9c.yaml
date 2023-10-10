@@ -1,9 +1,9 @@
-columnSuffix: ypwfilfm
+columnSuffix: yclzoivb
 contentColumnType: text
 fieldGroup: 1d18599f-28bf-4c6b-bd5e-6cdbab818044 # Cards
-handle: cardTitle
+handle: shortDishDescription
 instructions: null
-name: 'Card Title'
+name: 'Short Dish Description'
 searchable: false
 settings:
   byteLimit: null

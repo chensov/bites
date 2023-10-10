@@ -1,27 +1,27 @@
 {% set gridImage = entry.cardImage.one() %}
 
+<a href="{{ entry.url }}">
+	<div class="main--card">
+		<div class="main--card-wrapper">
+			<div class="card-img">
+				<img src="{{ gridImage.url }}" alt="">
+				{% if currentUser %}{% endif %}
+				<i class="fa-solid fa-heart likeB"></i>
 
-<div class="main--card">
-	<div class="main--card-wrapper">
-		<div class="card-img">
-			<img src="{{ gridImage.url }}" alt="">
-			{% if currentUser %}{% endif %}
-			<i class="fa-solid fa-heart likeB"></i>
+			</div>
 
-		</div>
-
-		<h4>{{entry.cardTitle}}</h4>
-		<div class="card-bottom--info">
-			<span class="card-bottom-time">
-				<span class="material-symbols-outlined">schedule</span>
-				{{entry.cookingTime}}
-				m
+			<h4>{{entry.cardTitle}}</h4>
+			<div class="card-bottom--info">
+				<span class="card-bottom-time">
+					<span class="material-symbols-outlined">schedule</span>
+					{{entry.cookingTime}}
 
 
-			</span>
-			<span class="card-bottom-time">
-				<span class="material-symbols-outlined">restaurant</span>
-				{{entry.typeOfDish}}</span>
+				</span>
+				<span class="card-bottom-time">
+					<span class="material-symbols-outlined">restaurant</span>
+					{{entry.typeOfDish}}</span>
+			</div>
 		</div>
 	</div>
-</div>
+</a>

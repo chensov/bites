@@ -19,6 +19,6 @@ siteSettings:
   5957fd25-68f5-48f7-9420-f145a9452018: # Bites.
     enabledByDefault: true
     hasUrls: true
-    template: _cards.twig
+    template: recipe/_entry.twig
     uriFormat: 'cards/{slug}'
 type: channel

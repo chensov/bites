@@ -17,7 +17,7 @@ settings:
   localizeRelations: false
   maintainHierarchy: false
   maxRelations: 1
-  minRelations: 1
+  minRelations: 0
   previewMode: full
   restrictFiles: true
   restrictLocation: false

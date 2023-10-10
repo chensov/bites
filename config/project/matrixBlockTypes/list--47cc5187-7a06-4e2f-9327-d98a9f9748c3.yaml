@@ -7,6 +7,18 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
+            fieldUid: eff07669-5d14-4175-b6f8-af3766b11161 # Instruction Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b8c541b8-ff94-4dda-9caf-b9db4892386c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 600e750f-c033-47a6-b943-8e378f651e04 # Instruction
             instructions: null
             label: null
@@ -37,6 +49,26 @@ fields:
       initialRows: 4
       multiline: false
       placeholder: 'Add your recipe steps'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  eff07669-5d14-4175-b6f8-af3766b11161: # Instruction Title
+    columnSuffix: jkzxshng
+    contentColumnType: text
+    fieldGroup: null
+    handle: instructionTitle
+    instructions: null
+    name: 'Instruction Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none

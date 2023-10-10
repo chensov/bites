@@ -1,4 +1,4 @@
-dateModified: 1696615277
+dateModified: 1696706047
 email:
   fromEmail: senche.dev@gmail.com
   fromName: Bites.
@@ -22,16 +22,21 @@ meta:
     8eeff1e3-4810-4aa5-a83e-43630265afdf: 'Card Image' # Card Image
     9c25d975-ac38-4990-a0a2-0ebb6afaa93b: 'Featured Description' # Featured Description
     47cc5187-7a06-4e2f-9327-d98a9f9748c3: List # List
+    60f305d5-08d2-454d-9d86-dacb345f2a3a: Ingredients # Ingredients
     67a11a82-0fd8-4bab-a6ba-881d1c2b9aa0: Home # Home
     97b39696-39d5-4c02-a9d8-7c992bca8c70: Common # Common
+    229a9f4f-f5ee-44d5-bc3e-8e25c3cab7f6: Ingredient # Ingredient
     260f2c7e-49ba-49f2-a7d1-1f86fceb75a5: Default # Default
     600e750f-c033-47a6-b943-8e378f651e04: Instruction # Instruction
+    897c0904-c1f0-4527-bc4c-42e40ff69f9c: 'Short Dish Description' # Short Dish Description
     5957fd25-68f5-48f7-9420-f145a9452018: Bites. # Bites.
     9470a4be-a28e-440b-874e-bc4b68ac5c7a: 'Cooking Time - Hours' # Cooking Time - Hours
+    80727c92-66de-48a4-bc22-7851caf5ef96: 'Ingredient List' # Ingredient List
     081460bb-51de-4479-ad7e-d9bdffef15b9: Uploads # Uploads
     34900664-ae6b-4631-86db-36aa62e63cd8: Cards # Cards
     a6da2235-77ad-45fd-876f-fc6200d3c2fd: 'Public Schema' # Public Schema
     abe56bc6-a920-4f9f-8dfa-4527a48b0ad7: 'Type of Dish' # Type of Dish
+    b822cda0-c08e-4106-8dd6-8e5142ca11e2: 'Cooking Tip' # Cooking Tip
     c87257bb-1f30-4e68-9e42-a93172794cf3: Bites. # Bites.
     cae05f3e-cedc-4829-aeb9-362960b98ca6: Recipe # Recipe
     da410dbc-f836-430d-bfe4-09778f5c9f24: 'Cooking Time - Minutes' # Cooking Time - Minutes
@@ -40,8 +45,13 @@ meta:
     e0ee38b9-cff7-4972-9def-025e2c3e5b1b: 'Dish Type' # Dish Type
     e950dc98-3d45-44f5-9ba8-90852ca6de5e: 'Cooking Time' # Cooking Time
     ee4a59a9-c6ae-4cf9-8187-5045ebc64bd4: 'Featured Card Image ' # Featured Card Image 
+    eff07669-5d14-4175-b6f8-af3766b11161: 'Instruction Title' # Instruction Title
     fae472b1-d526-4567-8a0a-f4821b7f8d20: 'Card Title' # Card Title
 plugins:
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.0.0
   guest-entries:
     edition: standard
     enabled: true
@@ -70,6 +80,14 @@ plugins:
                 -
                   - authorUid
                   - 772997ba-c62d-4da9-9bcf-c96f73b03d3b
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
 system:
   edition: pro
   live: true

@@ -8,7 +8,7 @@ searchable: false
 settings:
   decimals: 0
   defaultValue: null
-  max: 59
+  max: 65
   min: 0
   prefix: null
   previewCurrency: null

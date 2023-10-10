@@ -1,0 +1,14 @@
+{% set entries = craft.entries.search(search).limit(8).all() %}
+
+
+{% if entries|length %}
+	<ul>
+		{% for entry in entries %}
+			<li>
+				<a href="{{ entry.url }}">{{ entry.title }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+{% else %}
+	<p>No results found for "{{ search }}".</p>
+{% endif %}

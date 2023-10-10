@@ -79,8 +79,8 @@ li {
 
 .hero-card {
   height: 500px;
-  background: #fcfffe;
-  width: 90vw;
+  background: #caffe8;
+  width: 80vw;
   border-radius: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -100,6 +100,7 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 2px 20px 15px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
 }
 
 .new-recipe {
@@ -117,6 +118,7 @@ li {
 .info-wrapper {
   display: flex;
   flex-direction: column;
+  color: rgb(100, 100, 100);
 }
 
 .wrap-dish-time {
@@ -186,7 +188,7 @@ li {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-image: url("/assets/images/profile_pic.png");
+  background-image: url("/assets/images/filch.webp");
   background-size: cover;
   background-position: center;
 }
@@ -197,12 +199,13 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .main--card-grid {
-  gap: 2vw;
+  gap: 5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -535,19 +538,18 @@ input:focus {
 }
 
 .recipe-wrap {
-  height: 80vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .recipe-card {
-  height: 80%;
   background: #fcfffe;
   width: 90vw;
   display: grid;
-  grid-template-columns: 50% 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
   overflow: hidden;
 }
 .recipe-card h1 {
@@ -595,13 +597,13 @@ input:focus {
   display: flex;
   flex-direction: column;
 }
-.recipe-right ol li {
+.recipe-right ol .blt-point {
   margin: 10px 0;
   counter-increment: item;
   margin-bottom: 5px;
 }
 
-li:before {
+.blt-point:before {
   margin-right: 10px;
   content: counter(item);
   background: rgb(173, 230, 203);
@@ -633,4 +635,9 @@ body {
 .page-content {
   flex: 1 0 auto;
   min-width: 100vh;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
 }

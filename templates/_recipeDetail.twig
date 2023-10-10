@@ -1,0 +1,69 @@
+{% set dishPhoto = entry.cardImage.one() %}
+
+<div class="recipe-wrap">
+
+	<div class="recipe-card">
+
+		<div class="recipe-right">
+			<h1>{{entry.cardTitle}}</h1>
+			<div class="recipie-content">
+				<p>{{ entry.shortDishDescription }}</p>
+			</div>
+			<section class="serves-wrap">
+				<div class="serves">
+
+					<span class="material-symbols-outlined">schedule</span>
+					<p>&nbsp;{{ entry.cookingTime }}</p>
+				</p>
+			</div>
+			<div class="serves">
+
+				<span class="material-symbols-outlined">
+					groups
+				</span>
+				<p>&nbsp;4</p>
+			</div>
+			<div class="serves">
+				<span class="material-symbols-outlined">
+					restaurant
+				</span>
+				<p>&nbsp;Pasta</p>
+			</div>
+			<div class="serves">
+				<span class="material-symbols-outlined">
+					nutrition
+				</span>
+				<p>&nbsp;655 cal</p>
+			</div>
+		</section>
+
+		<ol>
+			<h3>Ingredient</h3>
+
+			{% for ing in entry.ingredientList.all() %}
+				<li class="blt-point">{{ ing.ingredient }}</li>
+			{% endfor %}
+		</ol>
+
+		<ol>
+
+			{% for step in entry.recipeInstructions.all() %}
+				<h3>{{ step.instructionTitle }}</h3>
+				<li class="blt-point">{{ step.instruction }}</li>
+			{% endfor %}
+		</ol><br>
+
+		<i>
+			<p>
+				<b>Tip:</b>
+				{{ entry.cookingTip }}</p>
+		</i>
+	</div>
+
+	<div class="recipe-left">
+		<img src="uploads/2023_penne-quattro-formaggi3-aufmacher.jpg" alt="">
+
+
+		<img src="{{ dishPhoto.url }}" alt="">
+	</div>
+</div>

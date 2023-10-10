@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 1d18599f-28bf-4c6b-bd5e-6cdbab818044 # Cards
+handle: ingredientList
+instructions: null
+name: 'Ingredient List'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_ingredientlist}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

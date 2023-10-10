@@ -1,3 +1,6 @@
+{% set search = search ?? "" %}
+{% set count = craft.app.request.getParam('count', 0) %}
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -11,8 +14,11 @@
 	<body>
 		<div class="top-container">
 			<div class="logo">
-				<h1>bites.</h1>
+				<a href="{{ siteUrl }}">
+					<h1>bites.</h1>
+				</a>
 			</div>
+
 			<nav>
 				<ul>
 					<li>Home</li>

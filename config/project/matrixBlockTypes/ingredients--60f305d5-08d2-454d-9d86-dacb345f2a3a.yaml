@@ -1,0 +1,46 @@
+field: 80727c92-66de-48a4-bc22-7851caf5ef96 # Ingredient List
+fieldLayouts:
+  b46784d1-4a0f-4367-8d81-6b101a3f87e5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 229a9f4f-f5ee-44d5-bc3e-8e25c3cab7f6 # Ingredient
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d429f92-9193-44ac-8620-7daf010cba99
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b12db1ba-df2b-4ad3-a878-2d0c3de60407
+        userCondition: null
+fields:
+  229a9f4f-f5ee-44d5-bc3e-8e25c3cab7f6: # Ingredient
+    columnSuffix: bxwvicck
+    contentColumnType: text
+    fieldGroup: null
+    handle: ingredient
+    instructions: null
+    name: Ingredient
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: ingredients
+name: Ingredients
+sortOrder: 1
