@@ -3,6 +3,7 @@
 	{% set hours = entry.cookingTimeHours %}
 	{% set minutes = entry.cookingTimeMinutes %}
 	{% set output = "" %}
+	{% set query = query ?? '' %}
 	{% set mainCardImage = entry.featuredCardImage.one() %}
 
 	<div class="hero--wrapper">
@@ -66,18 +67,21 @@
 
 
 			<h1 class="mid-page-title">Recipes under an hour</h1>
+
+			{{ sprig("partials/_search.twig" ) }}
 		</div>
 
 
 		<div class="card-wrapper">
 			<div class="main--card-grid">
+				{% set cardEntries = craft.entries.section('cards').search(query).limit(8).all() %}
 
-				{% set cardEntries = craft.entries.section('cards').limit(8).all() %}
+
 				{% for entry in cardEntries %}
 					{% include "_cards.twig" %}
 				{% endfor %}
-
 			</div>
+
 		</div>
 		<div class="explore-more-container">
 			<span>Explore more recipes</span>

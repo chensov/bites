@@ -1,0 +1,16 @@
+{% set query = query ?? '' %}
+
+<input id="search" sprig s-trigger="keyup changed delay:200ms" s-replace="#results" type="text" name="query" value="{{ query }}" placeholder="Search">
+<div id="results">
+	{% if query %}
+		{% set entries = craft.entries.search(query).all() %}
+		{% if entries|length %}
+			{% for entry in entries %}
+				<br>
+				<a href="{{ entry.url }}">{{ entry.title }}</a>
+			{% endfor %}
+		{% else %}
+			No results
+		{% endif %}
+	{% endif %}
+</div>

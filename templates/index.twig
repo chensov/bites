@@ -36,9 +36,9 @@
 
 		</div>
 
-
 		{{ include ("partials/_login.twig") }}
 		{{ include ("partials/_register.twig") }}
+
 		<div class="page-content"> {% block content %}{% endblock %}
 			</div>
 
@@ -59,7 +59,10 @@
 				</div>
 				<p>&copy; 2023 bites. All rights reserved.</p>
 			</footer>
+
 			<script src="{{ alias('@web/js/like.js') }}"></script>
 			<script src="{{ alias('@web/js/modal.js') }}"></script>
+			{{ sprig.script }}
+
 		</body>
 	</html>
