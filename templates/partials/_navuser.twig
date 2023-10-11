@@ -1,0 +1,11 @@
+{% if currentUser %}
+	<span>Hey,
+		{{ currentUser.username }}</span>
+	<form method="post" action="{{ url('actions/users/logout') }}" style="display: inline;">
+		{{ csrfInput() }}
+		<a style="text-decoration:none" href="#" onclick="this.closest('form').submit();" class="logout-link sign--up-btn">Log Out</a>
+	</form>
+{% else %}
+	<span class="login-btn">Log In</span>
+	<span class="sign--up-btn">Sign Up</span>
+{% endif %}

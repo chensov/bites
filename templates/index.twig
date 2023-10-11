@@ -28,24 +28,17 @@
 				</ul>
 			</nav>
 			<div class="login">
-				{% if currentUser %}
-					<span>Hey,
-						{{ currentUser.username }}</span>
-					<form method="post" action="{{ url('actions/users/logout') }}" style="display: inline;">
-						{{ csrfInput() }}
-						<a style="text-decoration:none" href="#" onclick="this.closest('form').submit();" class="logout-link sign--up-btn">Log Out</a>
-					</form>
-				{% else %}
-					<span class="login-btn">Log In</span>
-					<span class="sign--up-btn">Sign Up</span>
-				{% endif %}
+
+				{{ craft.blitz.includeDynamic("partials/_navuser.twig") }}
+
+
 			</div>
 
 		</div>
 
 
-		{% include "partials/_login.twig" %}
-		{% include "partials/_register.twig" %}
+		{{ include ("partials/_login.twig") }}
+		{{ include ("partials/_register.twig") }}
 		<div class="page-content"> {% block content %}{% endblock %}
 			</div>
 

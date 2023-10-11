@@ -4,6 +4,7 @@
     "craftcms/feed-me": "5.2.0",
     "craftcms/guest-entries": "3.0.1",
     "craftcms/redactor": "3.0.4",
+    "putyourlightson/craft-blitz": "^4.5",
     "putyourlightson/craft-sprig": "^2.7",
     "vlucas/phpdotenv": "^5.4.0"
   },
