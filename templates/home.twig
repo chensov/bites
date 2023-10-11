@@ -74,7 +74,7 @@
 
 		<div class="card-wrapper">
 			<div class="main--card-grid">
-				{% set cardEntries = craft.entries.section('cards').search(query).limit(8).all() %}
+				{% set cardEntries = craft.entries.section('cards').limit(8).all() %}
 
 
 				{% for entry in cardEntries %}
