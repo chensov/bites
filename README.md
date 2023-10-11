@@ -1,4 +1,6 @@
-# Recipe Sharing App (Craft CMS Project)
+# craftBites (Craft CMS Project)
+
+![CraftBites](/portfolio_add_cart.png)
 
 This is an experimental learning project based on Craft CMS, tailored towards creating a recipe sharing platform. The primary aim is to gain hands-on experience with Craft CMS, Twig templating engine, and various plugins.
 
