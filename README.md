@@ -18,12 +18,14 @@ This is an experimental learning project based on Craft CMS, tailored towards cr
 
 ## Getting Started
 
+
 ### Prerequisites:
 
 1. [Composer](https://getcomposer.org/)
 2. [Craft CMS](https://craftcms.com/docs/4.x/installation.html)
 
 ### Installation:
+
 
 1. Clone the repository:
 
