@@ -1,4 +1,4 @@
-dateModified: 1697033780
+dateModified: 1697039624
 email:
   fromEmail: senche.dev@gmail.com
   fromName: Bites.
@@ -76,7 +76,7 @@ plugins:
             - compressCachedValues
             - ''
       cacheStorageType: putyourlightson\blitz\drivers\storage\FileStorage
-      cachingEnabled: true
+      cachingEnabled: false
       debug: false
       deployerType: putyourlightson\blitz\drivers\deployers\DummyDeployer
       driverJobPriority: 100
@@ -99,12 +99,6 @@ plugins:
           __assoc__:
             -
               - queryStringParam
-              - '.*'
-      includedUriPatterns:
-        -
-          __assoc__:
-            -
-              - uriPattern
               - '.*'
       injectScriptEvent: DOMContentLoaded
       integrations:

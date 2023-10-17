@@ -1,5 +1,5 @@
 {% set search = search ?? "" %}
-{% set count = craft.app.request.getParam('count', 0) %}
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,19 +28,18 @@
 				</ul>
 			</nav>
 			<div class="login">
+				{# {% include "partials/_navuser.twig" %} #}
+				{# {{ craft.blitz.includeDynamic("partials/_navuser.twig") }} #}
+			{{ craft.blitz.includeDynamic("partials/_navuser.twig") }}
 
-				{{ craft.blitz.includeDynamic("partials/_navuser.twig") }}
-
-
-			</div>
+		</div>
 
 		</div>
 
 		{{ include ("partials/_login.twig") }}
 		{{ include ("partials/_register.twig") }}
 
-		<div class="page-content"> {% block content %}{% endblock %}
-			</div>
+			<div class="page-content">{% block content %}{% endblock %} </div>
 
 			<footer>
 				<div class="footer-wrap">
@@ -62,7 +61,7 @@
 
 			<script src="{{ alias('@web/js/like.js') }}"></script>
 			<script src="{{ alias('@web/js/modal.js') }}"></script>
-			{{ sprig.script }}
+
 
 		</body>
 	</html>
